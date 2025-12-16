@@ -17,22 +17,22 @@ To improve transparency, reproducibility, and methodological rigor using Python.
 
 ## Project Structure
 data/
-  raw/        Original SPSS and cleaned raw survey data
-  processed/  Final constructed dataset used for analysis
+  - raw/        Original SPSS and cleaned raw survey data
+  - processed/  Final constructed dataset used for analysis
 
 notebooks/
-  01_data_cleaning.ipynb
-  02_ols_baseline.ipynb
-  03_diagnostics.ipynb
-  04_regularization_ridge_lasso.ipynb
+  - 01_data_cleaning.ipynb
+  - 02_ols_baseline.ipynb
+  - 03_diagnostics.ipynb
+  - 04_regularization_ridge_lasso.ipynb
 
 figures/
-  Residual diagnostics and model plots
+  - Residual diagnostics and model plots
 
 results/
-  regression_tables.md
-  discussions.md
-  conclusion.md
+  - regression_tables.md
+  - discussions.md
+  - conclusion.md
 
 ## Key Findings
 - Knowledge of the US–China trade war (X2) is the only predictor that is consistently statistically significant across models.
